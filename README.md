@@ -9,7 +9,7 @@
 <pre>
   <xmp>
     <!--img element to show dropped image-->
-    <img ng-if="scope_which_will_get_image" ng-src="{{scopeWhichGetsImage}}" />
+    <img ng-if="scope_which_will_get_image" ng-src="{{scope_which_will_get_image}}" />
     <div drag-and-drop-upload bind-model="scope_which_will_get_image" style="height:200px;width:200px;">
          Upload Image here
     </div>
