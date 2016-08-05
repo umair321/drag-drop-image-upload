@@ -39,7 +39,6 @@
                         files = e.target.files;
                     }
                     reader.onload = function (e) {
-                        scope.cropper = {};
                         $parse(bindToScope).assign(scope, e.target.result);
                         //scope[bindToScope] = e.target.result;
                         scope.$apply();
