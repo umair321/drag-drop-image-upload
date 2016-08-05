@@ -1,0 +1,23 @@
+{
+  "name": "Angualr1 drag and drop image upload",
+  "authors": [
+    "Umair Hamid <umair_hamid100@yahoo.com>"
+  ],
+  "description": "a very tiny directive to upload image through drag and drop interface",
+  "main": "index.html",
+  "keywords": [
+    "angularjs",
+    "dragndrop",
+    "image",
+    "upload"
+  ],
+  "license": "MIT",
+  "homepage": "http://umairhamid.com/contact",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

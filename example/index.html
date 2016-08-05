@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title of the document</title>
+        <style type="text/css">
+            .wraper{
+                width:960px;
+                margin:0 auto;
+            }
+            .dragDropCon{
+                width: 200px;
+                height: 200px;
+                border: 2px dotted #000;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wraper">
+            <img ng-if="sourceImages" ng-src="{{sourceImages}}" class="md-card-image img-responsive" />
+            <div drag-and-drop-upload bind-model="sourceImages" class="dragDropCon">
+                Upload Image here
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/dragndrop.js"></script>
+    </body>
+
+</html>
